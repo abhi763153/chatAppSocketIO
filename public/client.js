@@ -63,3 +63,12 @@ function appendMessage(msg, type) {
     scrollBottom();
 
 }
+
+
+// Recieve message from server
+
+socket.on('message', (msg) => {
+
+    appendMessage(msg, "incoming");
+
+})

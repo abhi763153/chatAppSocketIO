@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    width: 50rem;
+    width: 50%;
     height: 30rem;
     margin: 7rem auto;
     background-color: white;
