@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(230, 230, 230);
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.container{
+    width: 50rem;
+    height: 30rem;
+    margin: 7rem auto;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius:  0.8rem 0.8rem 0 0;
+}
+
+.header{
+    width: 100%;
+    height: 3.5rem;
+    background-color: rgb(201, 207, 207);
+    border-radius: 0.8rem 0.8rem 0 0;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.header h1{
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+}
+
+
+
+
+.messageArea{
+    width: 100%;
+    height: 23rem;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 1rem 0.5rem;
+}
+.messageArea::-webkit-scrollbar{
+    display: none;
+}
+
+
+.message{
+    max-width: 300px;
+    padding: 0.5rem;
+    position: relative;
+    border-radius: 6px;
+    margin: 1.2rem 0;
+}
+
+.outgoing{
+    margin-left: auto;
+    background: #6e6f8d;
+    color: white;
+}
+
+.incoming{
+    background: #8f8be8;
+    color: white;
+}
+
+.textarea{
+    all: unset;
+    width: 98%;
+    background-color: rgb(229, 232, 232);
+    display: flex;
+    align-items: center;
+    padding: 21px 0 0 16px;
+}
+
+.message h4{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+}
